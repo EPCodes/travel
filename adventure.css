@@ -1,0 +1,41 @@
+/*
+Ethan Palmer
+CIS-2140-VO01
+Due 3/21/22
+*/
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+header, #tours-wrapper, h2 {
+  text-align: center;
+}
+body {
+  background-color: #D8BFD8;
+}
+img {
+  height: 400px;
+  width: 250px;
+}
+figcaption {
+  font-size: .75em;
+}
+#tours-wrapper {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+#header-list {
+  flex-direction: row;
+}
+#list {
+  display: flex;
+  justify-content: center;
+}
+#list li {
+  margin-left: 10px;
+}

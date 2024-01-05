@@ -1,0 +1,83 @@
+<!--
+Ethan Palmer
+CIS-2140-VO01
+Due 3/21/22
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "description" content = "jQuery Adventures">
+<meta name ="keywords" content="Javascript, jQuery, programming">
+<title>jQueryAdventures</title>
+<script src= "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="travelAdventure.js"></script>
+<link rel = "stylesheet" href="adventure.css">
+</head>
+<body>
+<header>
+<h1>Let's Travel!</h1>
+<p>Plan an adventure...</p>
+<div id="header-list">
+<ul id="list">
+<li>Hong Kong</li>
+<li>Timbuktu</li>
+<li>Rio</li>
+<li>Austin</li>
+<li>London</li>
+<li>Rome</li>
+</ul>
+</div>
+</header>
+<h2>Great Packages!</h2>
+<div id="tours-wrapper">
+ <div class = "destinations">
+   <figure>
+   <img src="zach-miles-Y84-eo8drzk-unsplash.jpg" alt="new york city skyline">
+   <figcaption>
+     Photo by <a href="https://unsplash.com/@zachmiles?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zach Miles</a> on <a href="https://unsplash.com/s/photos/nyc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   </figcaption>
+ </figure>
+  <ul id="america">
+    <li><h3>New York, New York</h3></li>
+	  <li><span class="details">Hotel for 7 nights</span></li>
+	  <li>Theater night included!</li>
+	  <li><button class="show" id = "nyny" value="1500">Get price</button></li>
+    <li><button class="select">Select</button></li>
+    <li></li>
+	</ul>
+</div>
+<div class="destinations">
+  <figure>
+    <img src="alex-azabache-Gg3STnNtymE-unsplash.jpg" alt="eiffel tower">
+    <figcaption>
+      Photo by <a href="https://unsplash.com/@alexazabache?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Azabache</a> on <a href="https://unsplash.com/s/photos/paris-france?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </figcaption>
+  </figure>
+	<ul id = "europe">
+	   <li><h3>Paris, France</h3></li>
+     <li><span class="details">Hotel for 7 nights</span></li>
+     <li>Climb the Eiffel Tower </li>
+	   <li><button class="show" id = "paris" value="1700">Get Price</button></li>
+     <li><button class="select">Select</button></li>
+	 </ul>
+ </div>
+<div class = "destinations">
+  <figure>
+    <img src="yoav-aziz-tKCd-IWc4gI-unsplash.jpg" alt="a narrow street in tokyo">
+    <figcaption>
+      Photo by <a href="https://unsplash.com/@yoavaziz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yoav Aziz</a> on <a href="https://unsplash.com/s/photos/tokyo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </figcaption>
+  </figure>
+	<ul id = "asia">
+    <li><h3>Tokyo, Japan</h3></li>
+	  <li><span class="details">Hotel for 5 nights</span></li>
+    <li>Climb Mt Fujii</li>
+	  <li><button class="show" id = "japan" value="1800">Get Price</button></li>
+    <li><button class="select" onclick="thankyou.html">Select</button></li>
+  </ul>
+</div>
+</div>
+</body>
+</html>
